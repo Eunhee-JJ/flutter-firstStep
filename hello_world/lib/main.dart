@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:hello_world/Person.dart';
+import 'package:hello_world/value_widget.dart';
 
-void main() => runApp(Parameter());
+void main() => runApp(ValueWidget());
 
-/*
+
 class RootWidget extends StatelessWidget {
   // This widget is the root of your application.
   @override
@@ -11,8 +12,7 @@ class RootWidget extends StatelessWidget {
     return Text('Hello world');
   }
 }
-*/
-/*
+
 class FancyHelloWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -32,7 +32,6 @@ class FancyHelloWidget extends StatelessWidget {
     );
   }
 }
-*/
 
 class Parameter extends StatelessWidget {
   Widget build(BuildContext context) {
