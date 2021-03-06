@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:hello_world/Person.dart';
 
-void main() => runApp(FancyHelloWidget());
+void main() => runApp(Parameter());
 
 /*
 class RootWidget extends StatelessWidget {
@@ -11,7 +12,7 @@ class RootWidget extends StatelessWidget {
   }
 }
 */
-
+/*
 class FancyHelloWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -29,5 +30,12 @@ class FancyHelloWidget extends StatelessWidget {
         ),
       ),
     );
+  }
+}
+*/
+
+class Parameter extends StatelessWidget {
+  Widget build(BuildContext context) {
+    return Person(firstName: "Sarah", lastName: "Ali");
   }
 }
